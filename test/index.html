@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>test</title>
+  <style>
+    .wrap1,
+    .wrap2 {
+      height: 100px;
+      opacity: 0;
+      -webkit-transition: all 1s ease-in-out;
+      transition: all 1s ease-in-out;
+    }
+    .wrap1 li,
+    .wrap2 li {
+      display: inline-block;
+    }
+    .wrap1.is-ready,
+    .wrap2.is-ready {
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+
+<h1>draw strings test</h1>
+
+<section>
+<h2>wrap1</h2>
+<ul class="wrap1">
+</ul>
+</section>
+
+<section>
+<h2>wrap2</h2>
+<ul class="wrap2">
+</ul>
+</section>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js
+"></script>
+<script src="Main.js"></script>
+
+</body>
+</html>
